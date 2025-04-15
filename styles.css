@@ -1,0 +1,101 @@
+header .logo{
+    height: 50px;
+}
+
+header .Menu a:hover{
+    color:rgb(255, 11, 11)
+}
+
+header .Menu a{
+    text-decoration: none;
+    color:rgb(34, 139, 231);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hero{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align:center;
+    padding: 100px 20.
+}
+
+.hero h1{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    font-size: 1.2em;
+}
+
+.header{
+    background: black;
+    color:white;
+    padding: 15px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between; /*espace entre le logo et le menu*/
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+body{
+    display: flex;
+    flex-direction: column; /*aligner les éléments verticalement*/
+
+}
+footer{
+    background-color: #333;
+    columns: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex: 1;
+}
+html, body{
+    height: 100%; /* s'assurer que le document occupe toute la hauteur de la fenetre*/
+}
+header .menu li{
+    margin: 15px;
+}
+.about, .contact{
+    padding: 40px 20px;
+}
+.contact form label{
+    display: block; /*pour afficher les lables sur des lignes différentes*/
+    margin: 10px 0 5px;
+}
+.contact form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.contact form button{
+    background: 333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer; /* le curseur devient une main au survole le boutton*/
+}
+.contact form button:hover{
+    background: #ff0000;
+}
+footer{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-style: 14;
+}
